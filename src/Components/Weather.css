@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the weather component */
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.weather-title {
+    font-size: 2em;
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input and button container styles */
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.weather-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.weather-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.weather-button:hover {
+    background-color: #4682b4;
+}
+
+/* Weather info styles */
+.weather-info {
+    text-align: center;
+}
+
+.weather-location {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.weather-temperature, .weather-condition {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Error message styles */
+.weather-error {
+    color: #ff4500;
+    text-align: center;
+}
+/* Existing styles */
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
